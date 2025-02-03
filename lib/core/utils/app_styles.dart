@@ -11,6 +11,10 @@ class AppStyles {
     fontFamily: 'Poppins',
     fontWeight: FontWeight.w600,
   );
+  static const _medium = TextStyle(
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w500,
+  );
 
   static const _bold = TextStyle(
     fontFamily: 'Poppins',
@@ -25,9 +29,17 @@ class AppStyles {
     fontSize: 13,
     color: const Color(0xFF949D9E),
   );
+  static final TextStyle regular14 = _regular.copyWith(
+    fontSize: 14,
+    color: const Color(0xFF949D9E),
+  );
   static final TextStyle regular16 = _regular.copyWith(
     fontSize: 16,
     color: const Color(0xFF646363),
+  );
+  static final TextStyle regular18 = _regular.copyWith(
+    fontSize: 16,
+    color: Colors.black,
   );
 
   static final TextStyle semiBold11 = _semiBold.copyWith(
@@ -49,6 +61,23 @@ class AppStyles {
   static final TextStyle semiBold16 = _semiBold.copyWith(
     fontSize: 16,
     color: AppColors.primaryColor,
+  );
+
+  static final TextStyle medium28 = _medium.copyWith(
+    fontSize: 28,
+    color: Colors.black,
+  );
+  static final TextStyle medium14 = _medium.copyWith(
+    fontSize: 14,
+    color: AppColors.primaryColor,
+  );
+  static final TextStyle medium13 = _medium.copyWith(
+    fontSize: 13,
+    color: AppColors.primaryColor,
+  );
+  static final TextStyle medium16 = _medium.copyWith(
+    fontSize: 16,
+    color: Colors.grey,
   );
 
   static final TextStyle bold13 = _bold.copyWith(

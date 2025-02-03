@@ -10,6 +10,18 @@ class Assets {
   /// assets/images/app_logo_png.png
   static const String assetsImagesAppLogoPng = "assets/images/app_logo_png.png";
 
+  /// Assets for assetsImagesClothes
+  /// assets/images/clothes.png
+  static const String assetsImagesClothes = "assets/images/clothes.png";
+
+  /// Assets for assetsImagesFashionListview
+  /// assets/images/fashion_listview.png
+  static const String assetsImagesFashionListview = "assets/images/fashion_listview.png";
+
+  /// Assets for assetsImagesGoogleIc
+  /// assets/images/google_ic.png
+  static const String assetsImagesGoogleIc = "assets/images/google_ic.png";
+
   /// Assets for assetsImagesOnborading1
   /// assets/images/onborading1.png
   static const String assetsImagesOnborading1 = "assets/images/onborading1.png";
